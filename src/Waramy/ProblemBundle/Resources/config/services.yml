@@ -1,0 +1,7 @@
+parameters:
+#    waramy_problem.example.class: Waramy\ProblemBundle\Example
+
+services:
+#    waramy_problem.example:
+#        class: %waramy_problem.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,7 @@
+parameters:
+#    waramy_garage.example.class: Waramy\GarageBundle\Example
+
+services:
+#    waramy_garage.example:
+#        class: %waramy_garage.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

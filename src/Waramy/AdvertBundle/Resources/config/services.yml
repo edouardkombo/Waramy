@@ -1,0 +1,7 @@
+parameters:
+#    waramy_advert.example.class: Waramy\AdvertBundle\Example
+
+services:
+#    waramy_advert.example:
+#        class: %waramy_advert.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

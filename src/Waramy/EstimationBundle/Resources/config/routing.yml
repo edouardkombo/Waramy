@@ -1,0 +1,3 @@
+waramy_estimation_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: WaramyEstimationBundle:Default:index }

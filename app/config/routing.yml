@@ -1,0 +1,36 @@
+waramy_advert:
+    resource: "@WaramyAdvertBundle/Resources/config/routing.yml"
+    prefix:   /
+
+waramy_accounting:
+    resource: "@WaramyAccountingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+waramy_medias:
+    resource: "@WaramyMediasBundle/Resources/config/routing.yml"
+    prefix:   /
+
+waramy_problem:
+    resource: "@WaramyProblemBundle/Resources/config/routing.yml"
+    prefix:   /
+
+waramy_estimation:
+    resource: "@WaramyEstimationBundle/Resources/config/routing.yml"
+    prefix:   /
+
+waramy_garage:
+    resource: "@WaramyGarageBundle/Resources/config/routing.yml"
+    prefix:   /
+
+waramy_insurance:
+    resource: "@WaramyInsuranceBundle/Resources/config/routing.yml"
+    prefix:   /
+
+waramy_vehicle:
+    resource: "@WaramyVehicleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+user:
+    resource: "@UserBundle/Resources/config/routing.yml"
+    prefix:   /
+

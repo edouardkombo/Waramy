@@ -1,0 +1,7 @@
+parameters:
+#    waramy_estimation.example.class: Waramy\EstimationBundle\Example
+
+services:
+#    waramy_estimation.example:
+#        class: %waramy_estimation.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

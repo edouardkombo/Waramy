@@ -1,0 +1,3 @@
+waramy_insurance_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: WaramyInsuranceBundle:Default:index }

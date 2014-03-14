@@ -1,0 +1,7 @@
+parameters:
+#    waramy_insurance.example.class: Waramy\InsuranceBundle\Example
+
+services:
+#    waramy_insurance.example:
+#        class: %waramy_insurance.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

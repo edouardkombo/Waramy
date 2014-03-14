@@ -1,0 +1,3 @@
+waramy_vehicle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: WaramyVehicleBundle:Default:index }
