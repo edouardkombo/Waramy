@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction($name)
     {
-        return $this->render('WaramyMediasBundle:Default:index.html.twig', array('name' => $name));
+        return $this->render('MediasBundle:Default:index.html.twig', array('name' => $name));
     }
 }

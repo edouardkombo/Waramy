@@ -1,0 +1,30 @@
+Waramy\ProfessionalBundle\Entity\Professional:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: 255
+        description:
+            type: text
+        addressId:
+            type: integer
+        fiscalId:
+            type: integer
+        userId:
+            type: integer
+        typeId:
+            type: integer
+        createdAt:
+            type: datetime
+            column: created_at
+        updatedAt:
+            type: datetime
+            column: updated_at
+    lifecycleCallbacks: {  }

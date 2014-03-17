@@ -1,0 +1,31 @@
+Waramy\AddressBundle\Entity\Address:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        address:
+            type: text
+        address2:
+            type: text
+        zipCode:
+            type: string
+            length: '10'
+        city:
+            type: integer
+        contry:
+            type: string
+            length: 255
+        country:
+            type: integer
+        mobile:
+            type: string
+            length: '25'
+        fix:
+            type: string
+            length: '25'
+    lifecycleCallbacks: {  }

@@ -1,0 +1,21 @@
+Waramy\AddressBundle\Entity\CountryLanguage:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        countryCode:
+            type: string
+            length: '3'
+        language:
+            type: string
+            length: '30'
+        isOfficial:
+            type: boolean
+        percentage:
+            type: decimal
+    lifecycleCallbacks: {  }

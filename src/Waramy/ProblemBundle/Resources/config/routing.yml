@@ -1,3 +1,0 @@
-waramy_problem_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: WaramyProblemBundle:Default:index }

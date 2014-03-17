@@ -1,0 +1,7 @@
+parameters:
+#    fiscal.example.class: Waramy\FiscalBundle\Example
+
+services:
+#    fiscal.example:
+#        class: %fiscal.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

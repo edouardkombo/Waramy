@@ -1,0 +1,3 @@
+fiscal_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: FiscalBundle:Default:index }

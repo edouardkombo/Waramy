@@ -1,0 +1,39 @@
+Waramy\UserBundle\Entity\User:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '50'
+        firstname:
+            type: string
+            length: '50'
+        email:
+            type: string
+            length: '150'
+        birthdate:
+            type: date
+        password:
+            type: string
+            length: '50'
+        salt:
+            type: string
+            length: '50'
+        createdAt:
+            type: datetime
+            column: created_at
+        updatedAt:
+            type: datetime
+            column: updated_at
+        addressId:
+            type: integer
+        role:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

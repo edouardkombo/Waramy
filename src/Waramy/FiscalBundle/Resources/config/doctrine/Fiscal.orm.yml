@@ -1,0 +1,14 @@
+Waramy\FiscalBundle\Entity\Fiscal:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        cin:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

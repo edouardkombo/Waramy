@@ -1,0 +1,32 @@
+Waramy\MediasBundle\Entity\Media:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        url:
+            type: string
+            length: 255
+        legend:
+            type: text
+        type:
+            type: integer
+        main:
+            type: boolean
+        ownerId:
+            type: integer
+        contractId:
+            type: integer
+        inventory:
+            type: integer
+        createdAt:
+            type: datetime
+            column: created_at
+        updatedAt:
+            type: datetime
+            column: updated_at
+    lifecycleCallbacks: {  }

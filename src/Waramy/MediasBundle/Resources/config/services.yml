@@ -1,7 +1,7 @@
 parameters:
-#    waramy_medias.example.class: Waramy\MediasBundle\Example
+#    medias.example.class: Waramy\MediasBundle\Example
 
 services:
-#    waramy_medias.example:
-#        class: %waramy_medias.example.class%
+#    medias.example:
+#        class: %medias.example.class%
 #        arguments: [@service_id, "plain_value", %parameter%]

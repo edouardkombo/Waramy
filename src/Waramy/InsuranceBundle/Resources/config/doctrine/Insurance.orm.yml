@@ -1,0 +1,30 @@
+Waramy\InsuranceBundle\Entity\Insurance:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        ownerId:
+            type: integer
+        number:
+            type: string
+            length: 255
+        categoryId:
+            type: integer
+        createdAt:
+            type: datetime
+            column: created_at
+        updatedAt:
+            type: datetime
+            column: updated_at
+        valid:
+            type: boolean
+        startDate:
+            type: date
+        endDate:
+            type: date
+    lifecycleCallbacks: {  }

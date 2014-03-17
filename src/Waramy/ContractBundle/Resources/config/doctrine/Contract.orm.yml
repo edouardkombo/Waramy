@@ -1,0 +1,35 @@
+Waramy\ContractBundle\Entity\Contract:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        garageId:
+            type: integer
+        vehicleId:
+            type: integer
+        inventoryBefore:
+            type: text
+        inventoryAfter:
+            type: text
+        problemsAfter:
+            type: text
+        milesBefore:
+            type: string
+            length: '7'
+        milesAfter:
+            type: string
+            length: '7'
+        createdAt:
+            type: datetime
+            column: created_at
+        updatedAt:
+            type: datetime
+            column: updated_at            
+        valid:
+            type: boolean
+    lifecycleCallbacks: {  }

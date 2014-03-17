@@ -1,0 +1,37 @@
+Waramy\ContractBundle\Entity\Quotation:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        contractId:
+            type: integer
+        name:
+            type: string
+            length: 255
+        quantity:
+            type: integer
+            column: Quantity
+        price:
+            type: decimal
+        description:
+            type: text
+        notesBefore:
+            type: text
+        notesAfter:
+            type: text
+        startDate:
+            type: date
+        endDate:
+            type: date
+        createdAt:
+            type: datetime
+        updatedAt:
+            type: datetime
+        valid:
+            type: boolean
+    lifecycleCallbacks: {  }

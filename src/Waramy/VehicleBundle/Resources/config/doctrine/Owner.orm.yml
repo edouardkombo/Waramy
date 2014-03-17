@@ -1,0 +1,21 @@
+Waramy\VehicleBundle\Entity\Owner:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        vehicleId:
+            type: integer
+        userId:
+            type: integer
+        since:
+            type: date
+        until:
+            type: date
+        valid:
+            type: boolean
+    lifecycleCallbacks: {  }

@@ -1,0 +1,7 @@
+parameters:
+#    contract.example.class: Waramy\ContractBundle\Example
+
+services:
+#    contract.example:
+#        class: %contract.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

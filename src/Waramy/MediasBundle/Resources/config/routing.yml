@@ -1,3 +1,3 @@
-waramy_medias_homepage:
+medias_homepage:
     pattern:  /hello/{name}
-    defaults: { _controller: WaramyMediasBundle:Default:index }
+    defaults: { _controller: MediasBundle:Default:index }

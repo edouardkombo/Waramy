@@ -1,0 +1,7 @@
+parameters:
+#    address.example.class: Waramy\AddressBundle\Example
+
+services:
+#    address.example:
+#        class: %address.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

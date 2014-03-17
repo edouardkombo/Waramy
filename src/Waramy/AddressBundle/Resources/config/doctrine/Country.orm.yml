@@ -1,0 +1,49 @@
+Waramy\AddressBundle\Entity\Country:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        code:
+            type: string
+            length: '3'
+        name:
+            type: string
+            length: '52'
+        continent:
+            type: string
+            length: '20'
+        region:
+            type: string
+            length: '26'
+        surfaceArea:
+            type: decimal
+        indepYear:
+            type: smallint
+        population:
+            type: integer
+        lifeExpectancy:
+            type: decimal
+        gnp:
+            type: decimal
+        gnpOld:
+            type: decimal
+        localName:
+            type: string
+            length: '45'
+        governmentForm:
+            type: string
+            length: '45'
+        headOfState:
+            type: string
+            length: '60'
+        capital:
+            type: integer
+        code2:
+            type: string
+            length: '2'
+    lifecycleCallbacks: {  }

@@ -1,0 +1,22 @@
+Waramy\AddressBundle\Entity\Cities:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        name:
+            type: string
+            length: '35'
+        countryCode:
+            type: string
+            length: '3'
+        district:
+            type: string
+            length: '20'
+        population:
+            type: integer
+    lifecycleCallbacks: {  }

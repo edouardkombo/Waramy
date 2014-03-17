@@ -1,0 +1,7 @@
+parameters:
+#    professional.example.class: Waramy\ProfessionalBundle\Example
+
+services:
+#    professional.example:
+#        class: %professional.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
